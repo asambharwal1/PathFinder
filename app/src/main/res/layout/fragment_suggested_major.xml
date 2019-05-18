@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/suggestedMajor"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.aashishssg.pathfinder.SuggestedMajor">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your suggested major match is:"
+            android:textAlignment="center"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/majorMatch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CS_MAJOR"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <com.github.lzyzsd.circleprogress.DonutProgress
+            android:id="@+id/percentageMatch"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            custom:donut_progress="30"
+            custom:donut_text_size="35dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your matches:"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/black"
+            android:textStyle="italic" />
+
+        <ListView
+            android:id="@+id/majorsMatched"
+            android:layout_width="match_parent"
+            android:layout_height="192dp" />
+
+    </LinearLayout>
+</FrameLayout>

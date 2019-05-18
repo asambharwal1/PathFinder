@@ -1,0 +1,153 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.aashishssg.pathfinder.RegistrationEducation">
+
+    <!-- Login progress -->
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/education" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/job"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Job"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <Spinner
+                    android:id="@+id/job_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_weight="1"
+                    android:spinnerMode="dialog"
+                    android:popupTheme="@android:style/ThemeOverlay.Material.Light"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/skills"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Internship"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <Spinner
+                    android:id="@+id/internship_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:spinnerMode="dialog"
+                    android:popupBackground="@color/colorPrimary"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/undergrad_major"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Undergraduate Major"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <Spinner
+                    android:id="@+id/major_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:spinnerMode="dialog"
+                    android:popupBackground="@color/colorPrimary"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/interested_major"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interested/Preferred Major"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <Spinner
+                    android:id="@+id/preferred_major_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:spinnerMode="dialog"
+                    android:popupBackground="@color/colorPrimary"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ProgressBar
+            android:id="@+id/registration_progress2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/common_google_signin_btn_text_dark_disabled"
+            android:layout_weight="1"
+            android:progress="33" />
+
+        <Button
+            android:id="@+id/registration_complete"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next"
+            android:textStyle="bold"
+            android:layout_above="@+id/registration_progress2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</LinearLayout>

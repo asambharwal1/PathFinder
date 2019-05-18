@@ -1,0 +1,816 @@
+{
+  "courses" : {
+    
+  "CSC-200- Survey of Computing": {
+    "description": "This introductory course explores various careers in the field of information technology. A hands-on component will deal with state of the art personal computer operating systems, applications, database systems, Internet, email, and basic website construction. The structure of the course utilizes both classroom lectures and computer classroom labs. This course is geared toward the non-major and assumes no prior knowledge or experience in Computer Science.",
+    "Typically_Offered": "Spring-Summer Term"
+  },
+  "CSC-208- Ethics in Technology": {
+    "description": "Information Technology and the rapid pace in which it has advanced have had a tremendous impact on our lives. Changes have been swift and the human capacity to deal with them is limited. It has been said that our technology has outpaced our humanity. This course will research the new responsibilities technology presents and our ability to deal with these changes in an ethical manner. Students will employ ethical frameworks, which integrate computer science and ethics, to develop the skills required to examine different sets of assumptions and question them. Case studies will provide a historical perspective for analysis.",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-211- Programming in Java I": {
+    "description": "Introduction to programming in Java and problem solving. Variables, data types, input-output, using objects and methods from the standard classes (such as String and Scanner), control structures, writing methods, arrays. Solving problems with algorithms and implementing algorithms in Java. (Not for CS majors)",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-212- Programming in Java II": {
+    "description": "Intermediate programming in Java and problem solving. Writing Java programs with multiple classes: constructors, visibility modifiers, static members, accessor and mutator methods, and arrays of objects. Inheritance, polymorphism, and interfaces. Sorting arrays of primitive data and arrays of objects. Exception handling. (Not for CS majors) PREREQUISITE(S): CSC 211.",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-223- The Impact of Computing Technology on Our Lives": {
+    "description": "This course will introduce students to an overview of social analysis techniques and the theories of social change. These tools will be used to explore social impact issues of computing technology. Counts for Liberal Studies SCBI credit."
+  },
+  "CSC-233- Codes and Ciphers": {
+    "description": "This course is an introduction to the science and history of secret writing (cryptography) and how codes and ciphers can be broken (cryptanalysis). In historical settings we will encounter the main ideas and methods devised to secure communication channels. Possible topics include: substitution ciphers, transposition ciphers, the Vigenere cipher, statistical methods in cryptanalysis, public-key cryptography, and quantum cryptography. PREREQUISTE: LSP 120 or MAT 130 or CSC 241",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-235- Problem Solving": {
+    "description": "How do you solve a problem? In this course we discuss different problem solving techniques and strategies such as modeling, establishing subgoals, and searching and pruning. The techniques will be presented as part of a theoretical framework, but there will be significant emphasis on solving problems in familiar domains such as games, newspaper articles, philosophy, and simple geometry and logic. At the end of the course, students will have built a repertoire of problem solving tools that will allow them to make an informed choice of approach towards new problems."
+  },
+  "CSC-241- Introduction to Computer Science I": {
+    "description": "An introduction to problem solving, algorithms and structured programming using a higher-level programming language. The course will focus on skills for developing algorithms, and for writing and debugging programs. Students will learn how and when to use loops, conditionals, and functional abstractions in the context of problems motivated by real world applications. PREREQUISITE(S): MAT 130 or Mathematics Diagnostic Test placement into MAT 140.",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-242- Introduction to Computer Science II": {
+    "description": "An intermediate course in problem solving, algorithms and programming. Programming skills are further strengthened through more complex and larger programming assignments. The assignments will also be used to introduce different Computer Science areas (e.g. a Client-Server application for the Distributed Systems area). Classes and object oriented programming are motivated and introduced. PREREQUISITE(S): CSC241",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-243- Python for Programmers": {
+    "description": "An accelerated course covering the essentials of programming, with a focus on problem-solving, structured programming, and algorithm design. The concepts covered include collection types, conditional and iterative structures, functions, file input-output, exceptions, namespaces, recursion, and Internet client programming. PREREQUISITE(S): MAT 130 or equivalent",
+    "Typically_Offer": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-250- Computers and Human Intelligence": {
+    "description": "Students taking this course will study human problem-solving and its simulation by computers. Artificial intelligence, pattern recognition and learning programs will be discussed. PREREQUISITE(S): Familiarity with basic computer productivity tools and the Web."
+  },
+  "CSC-270- From Fireflies to Facebook: The Science of Networks": {
+    "description": "This course explores complex systems both natural and man-made, characterized by the relationships between interacting entities. Network structures can be found in the Internet and its many applications, but also in social relationships, marketplaces, ecosystems, even cells. We will examine a wide range of networks including technological, social, and natural. Students will learn basic concepts from graph theory, algorithms and network analysis, apply tools for extracting, analyzing and visualizing network properties, using data sets drawn from a variety of areas. PREREQUISITE(S): LSP 120",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-282- Workshop: Linux for Programmers": {
+    "description": "This course provides an introduction to Linux, the command-line environment, C programming, and version control. PREREQUISITE(S): CSC 241 or CSC 243 (2 quarter hours)",
+    "Typically_Offered": "Winter-Spring Terms"
+  },
+  "CSC-298- Internship": {
+    "description": "This course satisfies the junior year experiential learning requirement. In cooperation with local employers, this course offers students the opportunity to integrate their academic experience with on-the-job training in computer related work areas. Admission to the program requires consent of internship course instructor. Current work experience plus classroom time is required. Supervisor evaluation will contribute to the final grade.",
+    "Typically_Offered": "Autumn-Winter-Summer Terms"
+  },
+  "CSC-299- Sophomore Lab in Applied Computing": {
+    "description": "In this course, students investigate a particular application of computing. Students learn tools, methodologies, and formalisms used in a particular computing area, and apply them to develop working systems. Courses stress student initiative in investigating the application context, learning new tools (including languages and APIs), studying algorithms and code examples, and working on projects. Topics will vary by the faculty member's interest and perspective. PREREQUISITE(S): CSC 242 or CSC 243",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-300- Data Structures I": {
+    "description": "This is the first course in a two-course sequence on data structures using Java. The course introduces basic Java programming, reviews recursion, introduces asymptotic notations, and focuses mainly on linear data structures including arrays, linked lists and their variants, stacks and queues, and data structures supporting disjoint-set operations. The implementation of the basic operations on each data structure are discussed and analyzed in terms of their efficiency. The applications covered highlight and exploit the unique characteristics of the data structures, and emphasize problem solving and recursive thinking. Prerequisite(s): CSC 242 or CSC 243",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-301- Data Structures II": {
+    "description": "This is the second course in a two-course sequence on data structures using Java. The course focuses mainly on the following data structures, their analysis, and their applications: trees (search trees, balanced search trees), heaps, associative arrays, hash tables, and data structures for representing graphs. The implementation of the basic operations on each data structure are discussed and analyzed in terms of their efficiency. The applications discussed highlight and exploit the unique characteristics of the different data structures, and emphasize problem solving and recursive thinking. Prerequisite(s): CSC 300",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-308- Frameworks for Web Application Development": {
+    "description": "This course introduces concepts, techniques, technologies and APIs for web application development. The main focus of the course is on the Model-View-Controller design pattern employed by modern full-stack web frameworks. Concepts and techniques covered include client-server programming, database abstraction APIs, and asynchronous JavaScript. Examples of full-stack MVC frameworks include Ruby-on-Rails (written in Ruby), Django and TurboGears (written in Python). PREREQUISITE(S): CSC 374",
+    "Typically_Offered:Autumn-Spring Terms": {}
+  },
+  "CSC-309- C++ for Programmers": {
+    "description": "This course covers the essentials of C and C++ programming, focusing primarily on the topics of memory management and object-oriented programming. Topics include pointers and dynamic allocation, operator overloading, copy constructors and destructors, inheritance and polymorphism. PREREQUISITE(S): CSC 242 or CSC 243 or proficiency in another programming language.",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-321- Design and Analysis of Algorithms": {
+    "description": "Techniques for designing algorithms including: analyzing algorithms (big-O, recurrence relations) and divide-and-conquer (quicksort, mergesort). Additional topics chosen from: the greedy method, dynamic programming, backtracking, branch-and-bound and string matching. PREREQUISITE(S): (CSC 301 or CSC 393) and MAT140. MAT141 Recommended.",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-324- Data Analysis and Statistical Software II": {
+    "description": "Continuation of IT223. Multiple regression and correlation, residual analysis, analysis of variance, and robustness. PREREQUISITE(S): IT 223 or MAT 351.",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-325- Time Series Analysis and Forecasting": {
+    "description": "The course introduces students to statistical models for time series analysis and forecasting. The course topics include: autocorrelated data analysis, Box-Jenkins models (autoregressive, moving average, and autoregressive moving average models), analysis of seasonality, volatility models (GARCH-type, GARCH-M type, etc.), forecasting evaluation and diagnostics checking. The course will emphasize applications to financial data, volatility modeling and risk management. Real examples will be used throughout the course. PREREQUISITE(S): (CSC 212 or CSC 224 CSC 262 or CSC 309) and (CSC324 or MAT356) or consent of instructor."
+  },
+  "CSC-327- Problem Solving for Contests": {
+    "description": "This course prepares students to compete in programming contests. More broadly, it covers problem solving techniques in an informal, fun, and hands-on setting. This course will improve your analytical and programming skills and is thus recommended for all students and not just the competitors among us. This course can be taken for credit twice. PREREQUISITE(S): CSC 301 or CSC 383 (2 quarter hours)",
+    "Typically_Offered": "Spring Term"
+  },
+  "CSC-331- Scientific Computing": {
+    "description": "This course presents fundamental numerical algorithms for solving problems in scientific computing and computational finance. Areas covered include: error analysis, computer arithmetic, linear algebra, optimization problems, numerical integration (solvers), ordinary differential equations (ODE). The emphasis of the course is on the design of the algorithms, and their analysis. Algorithms will be implemented using mathematical software. PREREQUISITE(S): ((CSC 242 or CSC 243) and MAT 152 ) or instructor permission",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-333- Cryptology": {
+    "description": "Introduction to the methods of cryptography and cryptanalysis. Topics include classical cryptography (codes, substitution ciphers, transposition ciphers), block and stream ciphers (Feistel networks, DES), and public key cryptography (RSA, Key agreement, signature schemes). Optional topics include zero-knowledge protocols, quantum cryptography, and history. PREREQUISITE(S): (CSC 242 or CSC 243 or IT 212) and MAT 140",
+    "Typically_Offered": "Spring Term"
+  },
+  "CSC-334- Advanced Data Analysis": {
+    "description": "The course will teach advanced statistical techniques to discover information from large sets of data. The course topics include visualization techniques to summarize and display high dimensional data, dimensional reduction techniques such as principal component analysis and factor analysis, clustering techniques for discovering patterns from large datasets, and classification techniques for decision making. The methods will be implemented using standard computer packages. PREREQUISITE(S): CSC 324 or consent of instructor.",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-343- Introduction to Operating Systems": {
+    "description": "An advanced course on operating system design and implementation. Process management and scheduling, memory management, file systems, device drivers, access control, and virtualization will be covered. The emphasis of the course will be on implementing components of a functional operating system. PREREQUISITE(S): CSC 301 and CSC 373 and CSC 374",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-344- Automata Theory and Formal Grammars": {
+    "description": "An introduction to the most important abstract models of computation and their applications: finite state machines and pushdown automata. Explores the relationship between regular expressions and formal grammars and automata. PREREQUISITE(S): CSC 301 and MAT 141",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-347- Concepts of Programming Languages": {
+    "description": "Syntax of programming languages: regular expressions, finite automata, context-free grammars, parsing. Scoping, binding, parameter passing, exception handling. Declarative programming languages. Typing, polymorphism. Runtime systems: dynamic loading, byte-code verification, security managers, garbage collection, versioning. PREREQUISITE(S): (CSC 301 or CSC 393) and CSC 373",
+    "Typically_Offered": "Spring Term"
+  },
+  "CSC-348- Introduction to Compiler Design": {
+    "description": "An overview of the design of a compiler for a general purpose programming language; tools for designing the components of the compiler; implementing the compiler; run time environments. PREREQUISITE(S): CSC 301 and CSC 373 and CSC 347",
+    "Typically_Offered": "Autumn-Winter Terms"
+  },
+  "CSC-352- Database Programming": {
+    "description": "Programming in a large-scale relational database environment using procedural languages. Topics covered in the course include: procedural extension of query languages, runtime error handling, subprograms (procedures and functions), packages, database triggers, dynamic query language. Optional topics include transaction management, reliability, and security. PREREQUISITE(S): (IT 240 or CSC 355) and (CSC 212 or CSC 242 or CSC 243 or CSC 300 or CSC 309).",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-353- Advanced Database Concepts": {
+    "description": "An introduction to advanced selected topics in databases. Possible topics include: object-oriented databases, distributed databases, intelligent and deductive databases, temporal databases, multimedia databases, spatial and geographic databases, fuzzy databases, mobile databases, data mining and data warehousing, as well as emerging issues and concepts in database design, implementation and management. PREREQUISITE(S): IT 240."
+  },
+  "CSC-357- Expert Systems": {
+    "description": "A study of the development of expert systems. Students will use commercial packages to develop standalone and embedded expert systems. Topics will include rule-based systems, decision trees, forward and backward chaining, inference, reasoning with uncertainty, and intelligent agents. PREREQUISITE(S): CSC 301 or CSC 393."
+  },
+  "CSC-358- Symbolic Programming": {
+    "description": "Concepts of symbolic programming as embodied in the language LISP. Basic data and control structures of LISP: symbolic expressions, the interpreter, functions, recursion, iteration. Techniques for prototyping and building conceptually advanced systems in an environment that encourages procedural and data abstraction. Advanced topics may include Prolog, intelligent tutoring systems, intelligent agents, and natural language processing. Assignments will focus on basic AI techniques, but the class is intended for anyone who will need to rapidly develop large complex systems. PREREQUISITE(S): CSC 301 or CSC 393.",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-360- Web Applications": {
+    "description": "This course covers the design and development of single-page web applications and their interaction with web services. Possible topics include: HTML; JavaScript-TypeScript; RxJS; Frameworks such as Agular and-or React; Node.js; programming and security models for browsers; client-side web applications with local storage; HTTP, proxies, and caching. PREREQUISITE(S): CSC 347 and CSC 376",
+    "Typically_Offered": "Winter-Spring Terms"
+  },
+  "CSC-361- Optimized C++": {
+    "description": "Implementation techniques to improve the performance and resource usage of C++ programs. This class will provide low level understanding of C++'s internal behavior that can be exploited to create faster performing software. Identify existing SISD (single instruction single data) implementation and refactor into SIMD (single instruction multiple data) to improve math centric software segments. Understand a system's dynamic memory usage to design and implement a custom high performance memory system. Topics include: performance enhancements through extended SIMD instuction set, dynamic memory usage, caching, implicit behavior, C++ language extensions, algorithms, streaming and profiling. PREREQUISITE(S): (CSC 301 or CSC 383 or CSC 393) and CSC 373",
+    "Typically_Offered": "Autumn-Spring Terms"
+  },
+  "CSC-362- C++ Multithreading": {
+    "description": "Applied C++ concurrency and multithreading fundamentals. Basic threading concepts: process model, threads, stacks, fibers, mutexes, semaphores, atomics, and events. Understanding synchronous- asynchronous interactions and behavior of threads. Using managed thread pools and queues in applications. Understanding advanced C++ language features relating to the memory model and the threading support. PREREQUISITE(S): GAM 391 or CSC 361",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-367- Foundations of Data Science": {
+    "description": "The course is an introduction to the Data Mining (DM) stages and its methodologies. The course provides students with an overview of the relationship between data warehousing and DM, and also covers the differences between database query tools and DM. Possible DM methodologies to be covered in the course include: multiple linear regression, clustering, k-nearest neighbor, decision trees, and multidimensional scaling. These methodologies will be augmented with real world examples from different domains such as marketing, e-commerce, and information systems. If time permits, additional topics may include privacy and security issues in data mining. The emphasis of this course is on methodologies and applications, not on their mathematical foundations. PREREQUISITE(S): IT 223",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-371- Mobile Application Development for iOS": {
+    "description": "This course introduces the core issues associated with application development for mobile devices using the iOS platform. Students will learn the Swift language, the XCode IDE, UIKit and other frameworks, the elements and architecture of the user interfaces, and more. Students will be exposed to the iOS system architecture including memory management, MVC, delegates and threads. Topics will also include understanding and handling of multi-touch events, gestures, and motion events. PREREQUISITE(S): (CSC 301 or CSC 383 or CSC 393) and CSC 374",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-372- Mobile Application Development for Android": {
+    "description": "This course introduces the core issues associated with application development for mobile devices using the Android platform. Students will learn the Eclipse IDE, frameworks, the elements and architecture of user interfaces, graphics, and more. Students will be exposed to the Android system architecture, including Views, Widgets, Resources, Adapters, Intents and Activities. Topics will also include understanding and handling of threads, multi-touch events, gestures, and motion events. PREREQUISITE(S): (CSC 301 or CSC 383 or CSC 393) and CSC 374",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-373- Computer Systems I": {
+    "description": "A course on computer systems topics, focusing on machine-level programming and architecture and their relevance for application programming. Information representations, assembly language, C programming, and debuggers, processor architecture. PREREQUISITE: (CSC 393 or CSC 300) and MAT 140",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-374- Computer Systems II": {
+    "description": "A course on computer systems topics, focusing on operating systems components and their relevance for application programming. Caching, memory hierarchy, performance optimization, linking, processes, virtual memory, dynamic memory allocation, system level I-O. PREREQUISITE: CSC 373",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-375- Introduction to Robotics": {
+    "description": "An introduction to the field of Robotics. Topics include history of robotics, kinematics, control theory, and sensor theory. A large portion of class time will be lab based, building and programming robots using the Lego Mindstorms NXT Robotics Kit. The programming will be using a C derivative and knowledge of C and general systems concepts is required. PREREQUISITE(S): CSC 373 and CSC 374"
+  },
+  "CSC-376- Distributed Systems": {
+    "description": "An introduction to distributed systems. Topics may include: architecture of distributed systems; networking; datagram-oriented and stream-oriented protocols; network programming (for example, the sockets API); remote procedure call and remote method invocation; processes and threads; code migration; software agents; naming of non-mobile and mobile entities; cryptography and security. PREREQUISITE(S): (CSC 301 or CSC 383 or CSC 393) and CSC 374.",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-379- Technology Partnerships in Urban Schools": {
+    "description": "Students in this course will have the opportunity to assess urban community needs in the technology arena and develop skills in assisting and developing methods for \"bridging the digital divide\" that exists. As a result, the student will be able to make a substantial difference in an underprivileged academic community group. This course is a CDM-sponsored community-based service learning course. Any student enrolled in this course can also satisfy the junior year experiential learning requirement.",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-380- Foundations of Artificial Intelligence": {
+    "description": "An in-depth survey of important concepts, problems, and techniques in artificial intelligence, including search, knowledge representation, logical reasoning, and reasoning with uncertainty. A particular focus and a unifying theme of the course will be the concept of intelligent agents. No prior knowledge of AI is required. The course is particularly suitable for graduate and advanced undergraduate students who want to gain the technical background necessary to build intelligent systems, or who want to prepare for more advanced work in AI. The concepts and techniques learned in this course will be directly applicable to many other areas of computer science including software design, distributed systems, databases, and information management and retrieval. PREREQUISITE(S): CSC 301 or CSC 393",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-381- Introduction to Digital Image Processing": {
+    "description": "Components of an image processing system and its applications, elements of visual perception, sampling and quantization, image enhancement by histogram equalization, color spaces and transformations, introduction to segmentation (edge detection algorithms), and morphological image processing. PREREQUISITE(S): MAT 150 or MAT 262",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-382- Applied Image Analysis": {
+    "description": "Fundamentals of computational image analysis will be explored in terms of its two most important components, image information extraction and modeling of image patterns. These components will be studied in the context of image representation, segmentation, classification, retrieval and recognition. The course will be useful for students interested in image analysis related to areas such as image databases, multimedia management, animation, GIS, computer graphics, medical imaging, remote sensing and robotics. Specific topics include, but are not limited to segmentation, multi-scale representation, shape analysis, texture analysis, Fourier analysis, wavelets, Gabor and fractal analysis, template matching, and object recognition. PREREQUISITE(S) CSC 381",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-386- Real-Time Networking (Formerly GAM 390)": {
+    "description": "Applied real-time networking fundamentals. Topics include low-level TCP-UDP socket programming, serialization of data for network transportation, deterministic data flow and queuing in applications, dynamic configuration and session communications. Students will explore issues related to performance-based networking in different topologies: client-server and peer to peer. Students will create and build real-time applications using different protocols (TCP, UDP, RUDP) with active network simulation of loss, delayed, corrupted and out of order data packets. PREREQUISITE(S): GAM 372 or (SE 350 and CSC 361)"
+  },
+  "CSC-388- Real-Time Multithreaded Architecture": {
+    "description": "Real-time constrained multithreaded architecture. Topics include multithreaded handle development, inter-thread communication, creating systems for user-defined callbacks, asynchronous loading and streaming of resources, non-blocking threading synchronization, design patterns and data driven messaging with time delivery constraints Exploration of multithreaded interfaces to maintain uniqueness and control for contented resources. Wrapping and intergrating a multithreaded solution into an application will be analyzed. Students will design, develop and implement a multithreaded real-time application (i.e. Audio engine) that integrates existing single and multithreaded middleware libraries. PREREQUISITE(S): GAM 372 or (CSC 361 and SE 350)"
+  },
+  "CSC-389- Theory of Computation": {
+    "description": "Advanced topics in the mathematical foundations of computation. Topics may include random access and Turing machines, recursive functions, algorithms, computability and computational complexity, intractable problems, NP-complete problems. PREREQUISITE(S): CS321 or CS344.",
+    "Typically_Offered": "Every Other Academic Year"
+  },
+  "CSC-391- Mobile Application Development for iOS II": {
+    "description": "This course will cover advanced topics in mobile application development for iOS. The topics covered will be made explicitly by the course instructor when the course is offered. PREREQUISITE(S): CSC 371"
+  },
+  "CSC-392- Mobile Application Development for Android II": {
+    "description": "This course will cover advanced topics in mobile application development for Android. The topics covered will be made explicit by the course instructor when the course is offered. PREREQUISITE(S): CSC 372"
+  },
+  "CSC-393- Data Structures in C++": {
+    "description": "This course covers the design, implementation, application and analysis of algorithms on a variety of data structures, including lists, stacks, queues, trees, heaps, hash tables and graphs. Implementation is done in C++, in particular with the use of templates and the C++ standard template library (STL). PREREQUISITE(S): CSC 309",
+    "Typically_Offered": "Winter-Spring Terms"
+  },
+  "CSC-394- Software Projects": {
+    "description": "Students will be provided with experience in team design, implementation and testing of a large software project. PREREQUISTE(S): CSC 301 or CSC 393 or ISM 360",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-395- Research Colloquium": {
+    "description": "The research colloquium series features informal talks by a variety of speakers including DePaul faculty, students, and guests from the academic and business communities. The lectures feature new creative and scholarly works that encompass the disciplines and areas of interest of the School of Computing. The talks are free and open to all who are interested, though only students who register can obtain academic credit. Every quarter, a different set of speakers will be invited. PREREQUISITE(S): WRD 204 and (CSC 321 or CSC 376 or CSC 355) (2 quarter hours)",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-397- Topics in Computer Science": {
+    "description": "Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit. PREREQUISITE(S): Consult the instructor (2 quarter hours)",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-398- Internship": {
+    "description": "This course does not carry Experiential Learning credit. In cooperation with local employers the computer science program offers students the opportunity to integrate their academic experience with on-the-job training in computer related work areas. Academic credit is variable and admission to the program requires consent of internship advisor. Supervisor evaluation will contribute to the final grade. This course is repeatable for 8.00 credit hours.",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-399- Independent Study": {
+    "description": "Independent study supervised by an instructor. Independent study form required. Can be repeated for credit. Variable Credit. PREREQUISITE(S): None. (variable credit)",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-400- Discrete Structures for Computer Science": {
+    "description": "This course covers the basic mathematical tools essential for solving problems in computer science. The mathematical topics are presented with emphasis on their applications in computer science. The topics covered include: logic and set theory, relations, functions, graphs, and counting and probability.",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-401- Introduction to Programming": {
+    "description": "An introduction to programming with a focus on problem solving, structured programming, and algorithm design with a gentle introduction to efficiency. Concepts covered include data types, expressions, variables, assignments, conditional and iterative structures, functions, file input-output, exceptions, namespaces, and recursion. PREREQUISITE(S): None",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-402- Data Structures I": {
+    "description": "A first course on data structures in Java for graduate students. The course introduces Java programming from within the context of data structures. The course covers arrays, linked lists, stacks and queues, data structures supporting disjoint-set operations, and discusses recursion and performance analysis. The implementation of the basic operations on each data structure are discussed and analyzed in terms of their efficiency. PREREQUISITE(S): CSC 401",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-403- Data Structures II":{
+    "description": "This is the second course on data structures in Java for graduate students. The course covers trees, heaps, associative arrays, hash tables, tries, and data structures for representing graphs. The implementation of the basic operations on each data structure are discussed and analyzed in terms of their efficiency. PREREQUISITE(S): CSC 402",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-404- Accelerated C++": {
+    "description": "This introductory graduate course covers the essentials of C++ programming. Topics include encapsulation, inheritance, polymorphism, dynamic memory allocation, casting, pointer arithmetic, operator overloading, templates, and the Standard Template Libraries. PREREQUISITE(S): None"
+  },
+  "CSC-406- Systems I": {
+    "description": "An introductory graduate course on computer systems topics, focusing on machine-level programming and architecture and their relevance for application programming. Information representations, assembly language and debuggers, processor architecture, program optimization, memory hierarchy and caching. Students are recommended to finish CSC 400 before enrolling in this course. PREREQUISITE(S): CSC 401",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-407- Systems II": {
+    "description": "An introductory graduate course on computer systems topics, focusing on operating systems components and their relevance for application programming. Linking, processes, virtual memory, dynamic memory allocation, system level I-O, networking and network programming, concurrent servers and web services. PREREQUISITE(S): CSC 406 and CSC 402",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-412- Tools and Techniques for Computational Analysis": {
+    "description": "Use of mathematical software to explore basic concepts in linear algebra and calculus. Scripting for symbolic and computational processing. Emphasis is on applications in computer science, finance, data mining, and computer vision. PREREQUISITE(S): None",
+    "Typically_Offered": "Autumn-Winter Terms"
+  },
+  "CSC-421- Applied Algorithms and Structures": {
+    "description": "This course covers techniques for designing and analyzing algorithms and structures in the context of computer application development. Examples will come from Internet, WWW, database, and computer system applications. Fundamental topics such as running-time analysis, searching and sorting within various structures, divide-and-conquer and dynamic programming will be covered. PREREQUISITE(S): CSC 400 and CSC 403",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-423- Data Analysis and Regression": {
+    "description": "Multiple regression and correlation, residual analysis, analysis of variance, and robustness. These topics will be studied from a data analytic perspective, supported by an investigation of available statistical software. PREREQUISITE(S): IT 403"
+  },
+  "CSC-424- Advanced Data Analysis": {
+    "description": "The course will teach advanced statistical techniques to discover information from large sets of data. The course topics include visualization techniques to summarize and display high dimensional data, dimensional reduction techniques such as principal component analysis and factor analysis, clustering techniques for discovering patterns from large datasets, and classification techniques for decision making. The methods will be implemented using standard computer packages. PREREQUISITE(S): CSC 423 or consent of instructor."
+  },
+  "CSC-425- Time Series Analysis and Forecasting": {
+    "description": "The course introduces students to statistical models for time series analysis and forecasting. The course topics include: autocorrelated data analysis, Box-Jenkins models (autoregressive, moving average, and autoregressive moving average models), analysis of seasonality, volatility models (GARCH-type, GARCH-M type, etc.), forecasting evaluation and diagnostics checking. The course will emphasize applications to financial data, volatility modeling and risk management. Real examples will be used throughout the course. PREREQUISITE(S): CSC 423 or MAT 456 or consent of instructor"
+  },
+  "CSC-426- Research Methods and Practice in Computing": {
+    "description": "The course is intended to help students understand the process of and issues related to doing scientific research in computing or related areas. Topics covered include how to develop an effective research proposal, how to critically evaluate or review a scientific research paper, how to use appropriate research methods in scientific research, key elements of a publishable paper or a dissertation, ethics and professional responsibility in scientific research. The course is intended for PhD students in Computer and Information Sciences or for students who are interested in pursuing a research career. PREREQUISITE(S): PhD status or consent of instructor.",
+    "Typically_Offered": "Every Other Spring Term"
+  },
+  "CSC-431- Scientific Computing": {
+    "description": "This course presents fundamental numerical algorithms for solving problems in scientific computing and computational finance. Areas covered include: error analysis, computer arithmetic, linear algebra, optimization problems, numerical integration (solvers), ordinary differential equations (ODE). The emphasis of the course is on the design of the algorithms, and their analysis. Algorithms will be implemented using mathematical software. PREREQUISITE(S): (CSC 401 and two quarters of calculus) or instructor permission",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-433- Scripting for Data Analysis": {
+    "description": "Data access and transformation with modern statistical software such as SAS and R. Report writing, data graphing and visualization, writing macros and functions to automate tasks and statistical analyses. PREREQUISITE(S): IT 403 and (CSC 401 or IT 411)"
+  },
+  "CSC-435- Distributed Systems I": {
+    "description": "An introduction to distributed systems. Topics may include: architecture of distributed systems; networking; datagram-oriented and stream-oriented protocols; network programming (for example, the sockets API); remote procedure call and remote method invocation; processes and threads; code migration; software agents; naming of non-mobile and mobile entities; cryptography and security. PREREQUISITE(S): CSC 403 and CSC 407",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-436- Web Applications": {
+    "description": "This course covers the design and development of modern web applications and their interaction with web services. The primary focus is on client-side web applications using AJAX-techniques to access web services. Possible topics include: HTML5; JavaScript-TypeScript; MVC and single-page application programming models, e.g., AngularJS; programming and security models for browsers; client-side web applications with local storage; data synchronization; HTTP, proxies, and caching; Node.js; RESTful web services. PREREQUISITE(S): CSC 435 and CSC 447"
+  },
+  "CSC-438- Framework for Web Application Development": {
+    "description": "This course introduces concepts, techniques, technologies and APIs for web application development. The main focus of the course is on the Model-View-Controller design pattern employed by modern full-stack web frameworks. Concepts and techniques covered include client-server programming, database abstraction APIs, and asynchronous javascript. Examples of full-stack MVC frameworks include Ruby-on-Rails (written in Ruby), Django and TurboGears (written in Python). PREREQUISITE: CSC 407",
+    "Typically_Offered": "Autumn-Spring Terms"
+  },
+  "CSC-439- Computer Security": {
+    "description": "This course covers core principles of computer security. Topics include : user authentication; access control (discretionary, mandatory, role-based); security auditing; database security; software security, common vulnerabilities, and secure coding practices; malicious software; and operating system security. Prerequisite(s): CSC 407",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-440- Cryptology": {
+    "description": "Introduction to the methods of cryptography and cryptanalysis. Topics include classical cryptography (codes, monoalphabetic and polyalphabetic substitution ciphers, transposition ciphers), modern block ciphers (such as DES, AES), and public key cryptography (such as RSA). Optional topics include zero-knowledge protocols, information theory, coding theory, error-correcting codes, steganography, stream ciphers, hashing algorithms, quantum cryptography, elliptic curve cryptography, and history. PREREQUISITE(S): CSC 403",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-443- Introduction to Operating Systems": {
+    "description": "An advanced course on operating system design and implementation. Process management and scheduling, memory management, file systems, device drivers, access control, and virtualization will be covered. The emphasis of the course will be on implementing components of a functional operating system. PREREQUISITE: CSC 403 and CSC 407",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-444- Automata Theory and Formal Grammars": {
+    "description": "An introduction to the most important abstract models of computation and their applications: finite state machines and pushdown automata. Explores the relationship between regular expressions and formal expressions and automata. PREREQUISITE(S): CSC 400 and CSC 403",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-447- Concepts of Programming Languages": {
+    "description": "Programming paradigms and language concepts: functional programming; comparison of object-oriented languages; type systems for functional and object-oriented languages; runtime systems for functional and object-oriented languages. A variety of programming languages will be used to illustrate concepts, e.g., JavaScript, Ruby, Scala, Scheme. PREREQUISITE(S): CSC 403 and CSC 406",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-448- Compiler Design": {
+    "description": "Design and structure of high level languages. Lexical scan, top down and bottom up syntactic analysis. Syntax directed translation and LR(k) grammars. PREREQUISITE(S): CSC 447",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-451- Database Design": {
+    "description": "Requirement analysis, conceptual design, logical design and implementation of relational databases. Emphasis will be on E-R modeling and E-R mapping, along with basic normalization and SQL for database implementation. PREREQUISITE(S): None",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-452- Database Programming": {
+    "description": "Programming in a large-scale relational database environment using procedural languages. Topics covered in the course include: procedural extension of query languages, runtime error handling, subprograms (procedures and functions), packages, database triggers, dynamic query language. Optional topics include transaction management, reliability, and security. PREREQUISITE(S): (CSC 453 or CSC 451 or CSC 455) and (CSC 401 or IT 411)",
+    "Typically_Offered": "Every Term"
+  },
+  "CSC-453- Database Technologies": {
+    "description": "A core graduate course in database design and implementation. Topics include database implementation and queries in SQL, logical design or relational databases, storage and indexes, database programming, and emerging database models. PREREQUISITE(S): CSC 403",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-454- Database Administration and Management": {
+    "description": "This course is designed to give students a comprehensive foundation in database administration and management. The course provides a conceptual understanding of the database architecture and how its components work and interact with one another. Topics covered in this course include: database architecture, capacity planning, installation and maintenance, network configuration, security management, utilities and tools, industry standards and guidelines, database management techniques and practices. PREREQUISITE(S): CSC 451 or CSC 453 or CSC 455",
+    "Typically_Offered": "Summer Term"
+  },
+  "CSC-455- Database Processing for Large-Scale Analytics": {
+    "description": "The course covers core concepts of database systems with focus on applications in large-scale analytics. Topics include relational databases, scheme normalization, SQL queries for data integration and data cleaning, database programming for ETL, and nontraditional database systems for unstructured data. PREREQUISITE(S): CSC 401",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-457- Expert Systems": {
+    "description": "A study of the development of expert systems. Students will use commercial packages to develop standalone and embedded expert systems. Topics will include rule-based systems, decision trees, forward and backward chaining, inference, reasoning with uncertainty, and intelligent agents. PREREQUISITE(S): CSC 403"
+  },
+  "CSC-458- Symbolic Programming": {
+    "description": "Concepts of symbolic programming as embodied in the language LISP. Basic data and control structures of LISP: symbolic expressions, the interpreter, functions, recursion, iteration. Techniques for prototyping and building conceptually advanced systems in an environment that encourages procedural and data abstraction. Advanced topics may include Prolog, intelligent tutoring systems, intelligent agents, and natural language processing. Assignments will focus on basic AI techniques, but the class is intended for anyone who will need to rapidly develop large complex systems. PREREQUISITE(S): CSC 403",
+    "Typically_Offered": "Every Other Academic Year"
+  },
+  "CSC-461- Optimized C++": {
+    "description": "Analysis and implementation techniques to improve the performance and resource usage of C++ programs. This class will provide low level understanding of C++'s internal behavior that can be exploited to create faster performing software. Analysis of existing software to help identify and remedy execution performance issues related to data layout, processor caching, unintended compiler interactions, algorithmic considerations, data containers and supplied subsystems. Topics include: performance enhancements through SIMD instruction set, dynamic memory usage, caching, implicit behavior, C++ language extensions, algorithms, streaming and profiling. PREREQUISITE(S): CSC 400 and CSC 403 and CSC 406",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-462- C++ Multithreading": {
+    "description": "Software architecture of applied C++ concurrency and multithreading fundamentals. Basic threading concepts: process model, threads, stacks, fibers, mutexes, semaphores, atomics and events. Leveraging advanced C++ language features relating to the memory model and the threading support in large multithreaded architectures. Architecting lock-based and lock-free concurrent data structures in applications. Designing a threaded management system to control the access and reuse of threads in applications. Designing multithreaded architecture for real-time performance. PREREQUISITE(S): GAM 491 or CSC 461",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-465- Data Visualization": {
+    "description": "An introduction to data visualization techniques to enhance the exploration and analysis of large data sets from a wide range of fields including commercial, financial, medical, scientific and engineering applications. Topics include visual encoding of numeric data, graphical integrity and effective visualization design, visualizing distributions and correlation, false-color techniques for feature extraction and enhancement, basic network visualization and graph layout, isosurface generation, geospatial visualization and volumetric rendering techniques. The course explores both existing visualization software packages and code interfaces for data visualization. PREREQUISITE(S): (IT 403 or MAT 453) and (CSC 401 or IT 411 or MAT 449)"
+  },
+  "CSC-471- Mobile Application Development for iOS": {
+    "description": "This course introduces the core issues associated with application development for mobile devices using the iOS platform. Students will learn the Swift language, the XCode IDE, UIKit and other frameworks, the elements and architecture of the user interfaces, and more. Students will be exposed to the iOS system architecture including memory management, MVC, delegates and threads. Topics will also include understanding and handling of multi-touch events, gestures, and motion events. PREREQUISITE(S): CSC 403 and CSC 407",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-472- Mobile Application Development for Android": {
+    "description": "This course introduces the core issues associated with application development for mobile devices using the Android platform. Students will learn the Eclipse IDE, frameworks, the elements and architecture of user interfaces, graphics, and more. Students will be exposed to the Android system architecture, including Views, Widgets, Resources, Adapters, Intents and Activities. Topics will also include understanding and handling of threads, multi-touch events, gestures, and motion events. PREREQUISITE(S): CSC 403 and CSC 407",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-475- Introduction to Robotics": {
+    "description": "An introduction to the field of Robotics. Topics include history of robotics, kinematics, control theory, and sensor theory. A large portion of class time will be lab based, building and programming robots using the Lego Mindstorms NXT Robotics Kit. The programming will be using a C derivative and knowledge of C and general systems concepts is required. PREREQUISITES: CSC 407"
+  },
+  "CSC-478- Programming Machine Learning Applications": {
+    "description": "The course will focus on the implementations of various data mining and machine learning techniques using a high-level programming language. Students will have hands on experience developing both supervised and unsupervised machine learning algorithms and will learn how to employ these techniques in the context of popular applications including automatic personalization, recommender systems, searching and ranking, text mining, group and community discovery, and social media analytics. PREREQUISITE(S): IS 467 and CSC 401"
+  },
+  "CSC-481- Introduction to Image Processing": {
+    "description": "The course is a prerequisite for more advanced Visual Computing (VC) courses and the students will be challenged to implement VC algorithms for real world applications. The topics covered in the course include: components of an image processing system and its applications, elements of visual perception, sampling and quantization, image enhancement by histogram equalization, color spaces and transformations, introduction to segmentation (Edge detection), and morphological image processing. PREREQUISITE(S): CSC 412 or consent of instructor",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-482- Applied Image Analysis": {
+    "description": "Fundamentals of computational image analysis will be explored in terms of its two most important components, image information extraction and modeling of image patterns. These components will be studied in the context of image representation, segmentation, classification, retrieval and recognition. The course will be useful for students interested in image analysis related to areas such as image databases, multimedia management, animation, GIS, computer graphics, medical imaging, remote sensing and robotics. Specific topics include, but are not limited to segmentation, multi-scale representation, shape analysis, texture analysis, Fourier analysis, wavelets, Gabor and fractal analysis, template matching, and object recognition. PREREQUISITE(S) CSC 481",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-485- Numerical Analysis": {
+    "description": "Use of a digital computer for numerical computation. Error analysis, Gaussian elimination and Gauss-Seidel method, solution of nonlinear equations, function evaluation, approximation of integrals and derivatives, Monte Carlo methods. PREREQUISITE(S): MAT 220 and a programming course."
+  },
+  "CSC-486- Real-Time Networking (Formerly GAM 490)": {
+    "description": "Applied real-time networking fundamentals. Topics include low-level TCP-UDP socket programming, serialization of data for network transportation, deterministic data flow and queuing in applications, dynamic configuration and session communications. Students will explore issues related to performance-based networking in different topologies: client-server and peer to peer. Students will create and build real-time applications using different protocols (TCP, UDP, RUDP) with active network simulation of loss, delayed, corrupted and out of order data packets. Architecture of different bandwidth compression and estimation techniques will be investigated. Research of wireless ad hoc networks such as Bluetooth and ZigBee will be explored. PREREQUISITE(S): CSC 461 and (SE 456 or SE 450)"
+  },
+  "CSC-489- Theory of Computation": {
+    "description": "Advanced topics in the mathematical foundations of computation. Topics may include random access and Turing machines, recursive functions, algorithms, computability and computational complexity, intractable problems, NP-complete problems. PREREQUISITE(S): CSC 444 or CSC 421.",
+    "Typically_Offered": "Every Other Academic Year"
+  },
+  "CSC-491- Mobile Application Development for iOS II": {
+    "description": "This course will cover advanced topics in mobile application development for iOS. The topics covered will be made explicit by the course instructor when the course is offered. PREREQUISITE(S): CSC 471"
+  },
+  "CSC-492- Mobile Application Development for Android II": {
+    "description": "This course will cover advanced topics in mobile application development for Android. The topics covered will be made explicit by the course instructor when the course is offered. PREREQUISITE(S): CSC 472"
+  },
+  "CSC-495- Social Network Analysis": {
+    "description": "This course is an introduction to the concepts and methods of social network analysis. Students will learn to extract and manage data about network structure and dynamics, and to analyze, model and visualize such data. Students will use software tools to model and visualize network structure and dynamics. Specific network applications to be discussed include online social networks, collaboration networks, and communication networks. PREREQUISITE(S): CSC 423 or SOC 412",
+    "Typically_Offered": "Autumn-Spring Terms"
+  },
+  "CSC-500- Research Colloquium": {
+    "description": "The research colloquium consists of weekly talks by a variety of speakers including faculty, students, and guests from the academic and business communities. The lectures feature new creative and scholarly works that encompass the disciplines and areas of interest of the School of Computing. Student evaluation is based on attendance as well as an online journal with reflections on each of the presentations. The educational objectives are to expose students to creative and scholarly research at DePaul and elsewhere, and to engage students in the thought process of identifying and solving challenging research problems. PREREQUISITE(S): None (variable credit)",
+    "Typically_Offered": "Autumn-Winter-Spring Terms"
+  },
+  "CSC-503- Parallel Algorithms": {
+    "description": "Development, implementation, and applications of parallel algorithms. Models of parallel computation. Parallel sorting, searching and graph algorithms, as well as other parallel algorithms, will be studied and implemented on both simulated and actual parallel machines. PREREQUISITE(S): CSC 421",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-521- Monte Carlo Algorithms": {
+    "description": "A course about the use of random numbers for numerical computation with particular emphasis on implementation issues and applications in science and finance. Covered topics include: pseudo random number generators, the inversion method, the accept-reject method, discrete event simulations, multi-dimensional integration, the Metropolis and the Bootstrap algorithms. PREREQUISITE(S): (CSC 402 or CSC 404) and CSC 423 or consent of instructor",
+    "Typically_Offered": "Spring Term"
+  },
+  "CSC-525- Combinatorial Optimization": {
+    "description": "This course defines and introduces the concepts and techniques needed to formulate and model optimization problems. A set of fundamental problems in combinatorial optimization will be covered together with their applications. The emphasis will be on the design and analysis of algorithms for such problems. The computational complexity of this set of problems (easy-hard to solve-approximate) will be discussed, and techniques for coping with intractable problems will be introduced. PREREQUISITE(S): CSC 421.",
+    "Typically_Offered": "Every Other Academic Year"
+  },
+  "CSC-528- Computer Vision": {
+    "description": "Computer Vision techniques for analysis of patterns in visual images and videos of 2D and 3D scenes will be explored with the goal of interpreting, understanding, and reconstructing 3D scenes. Topics to be covered include image formation and representation, 2D and 3D feature extraction, camera calibration, reconstruction of depth based on stereo, shading, focus, texture, and geometry, object detection and tracking, motion analysis, analytical performance characterization, and 3D recognition of objects and scenes using statistical and model-based techniques. The course will be useful for students interested in computer vision related areas such as robotics, remote sensing, and medical imaging. A significant part of the course will be dedicated to the discussion of articles recently published in the literature. PREREQUISITE(S): CSC 481",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-529- Advanced Data Mining": {
+    "description": "The course is for students with prior background in data mining or machine learning techniques, and covers more advanced modeling techniques, including ensemble learning, extended linear models such as support vector machines, probabilistic graphical models, mixture and latent variable models, matrix factorization and link analysis. Application of the models will be presented in popular domains such as Web and social media analytics, text mining, crime analysis, community discovery, and health informatics. PREREQUISITE(S): CSC 424 and (IS 467 or ECT 584 or CSC 578)"
+  },
+  "CSC-531- Introduction to Bioinformatics": {
+    "description": "An introduction to the field of Bioinformatics, which is computational modeling of biological and biochemical processes. Some programming in Java will be involved. Little biological knowledge will be assumed: any required will be taught in the course. Topics will include genomics, biological databases, sequence alignment (longest common subsequence), phylogenetic trees, and protein folding. Prerequisites: CSC 421 and SE 450",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-534- Software Development for Limited and Embedded Devices": {
+    "description": "This course will focus on the unique aspects, tools, and techniques of developing software applications for limited and embedded devices, such as set-top boxes and smart cards. Formerly CSC 542. PREREQUISITE(S): SE 450"
+  },
+  "CSC-535- Formal Semantics of Programming Languages": {
+    "description": "Methods of formal semantics. Lambda-calculus. Lattices and domains. Reflexive domains. Formal semantics of the lambda-calculus. Languages with state. Interpretation functions. Expressions and environments. Command and stores. Control structures and continuations. PREREQUISITE(S): CSC 447.",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-536- Distributed Systems II": {
+    "description": "An intermediate course on distributed systems. Topics may include: clock synchronization; mutual exclusion; distributed transactions; consistency models; distribution and consistency protocols; failure models; achieving fault tolerance; distributed object-based systems; distributed file systems. PREREQUISITE(S): CSC 435",
+    "Typically_Offered": "Spring Term"
+  },
+  "CSC-538- Vision Systems": {
+    "description": "Vision Systems will cover the geometry of computer vision as well as a survey of working vision systems to include 1) Content-based Image Retrieval Systems; 2) Object Detection and Tracking Systems; 3) Medical Visual Systems; 4) Robotic Navigation Systems. PREREQUISITE(S): CSC 528"
+  },
+  "CSC-540- Mobile Application Development II": {
+    "description": "This course will cover advanced topics in mobile and wireless application development. The topics covered will be made explicit by the course instructor when the course is offered. PREREQUISITE(S): CSC 471",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-543- Spatial Databases and Geographic Information Systems": {
+    "description": "This course considers how spatial databases work within a GIS, how data is structured, stored, indexed, retrieved, and displayed. Other topics may include fuzzy spatial databases, temporal spatial databases, and multiple criteria spatial decision making. The class will consist of hands-on work with commercial products, as well as investigating the state of-the art research in the field. Prerequisites: CSC 453 or CSC 455"
+  },
+  "CSC-547- Advanced Topics in Program Languages": {
+    "description": "A project-based course on advanced topics related to programming languages and programming environments. The course does not have any formal exams or homework assignments, but participants are expected to read papers on current research, actively participate in discussions, and complete a significant course project. PREREQUISITE(S): Instructor consent required."
+  },
+  "CSC-548- Advanced Compiler Design": {
+    "description": "Emphasis on practical problems in implementing compilers, data flow analysis, code optimization, error analysis. Discussion of compiler generators. As a class project, students will write a compiler. PREREQUISITE(S): CSC 448."
+  },
+  "CSC-549- Database System Implementation": {
+    "description": "This is an advanced database course that covers issues in DBMS implementation. Topics covered in this course include: physical data organizations, indexing and hashing, query processing and optimization, database recovery techniques, transaction management, concurrency control, and security. PREREQUISITE(S): CSC 453",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-550- Object-Oriented Databases": {
+    "description": "(No Longer Offered) Introduction to object-oriented concepts: abstract data typing, inheritance, object identity. Architecture, modeling and design for object-oriented databases. Query languages, integrity, long-duration transactions, concurrency, recovery and versioning in object-oriented databases. Brief survey of commercial and research prototypes of object-oriented database management systems. PREREQUISITE(S): CSC 453"
+  },
+  "CSC-551- Distributed Database Systems": {
+    "description": "Distributed database architecture, distributed database design, distributed query processing, query decomposition and optimization of distributed queries, distributed transaction management and concurrency control, distributed DBMS reliability, distributed database operating systems. Distributed multidatabase systems. Client-Server database systems. PREREQUISITE(S): CSC 453 and (CSC 435 or TDC 405 or TDC 463)"
+  },
+  "CSC-552- Concurrent Software Development": {
+    "description": "Fundamentals and techniques of developing concurrent object-oriented applications, using a patterns-based approach. Concepts covered include: threads, synchronization and object locking, thread blocking and deadlock, safety and liveness, state-dependent action and concurrency control. Formerly SE 552. PREREQUISITE(S): SE 450 and CSC 407",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-553- Advanced Database Concepts": {
+    "description": "An introduction to advanced selected topics in databases. The topics include: intelligent and deductive databases, temporal databases, multimedia databases, spatial and geographic databases, fuzzy databases, mobile databases, data mining and data warehousing, as well as emerging issues and concepts in database design, implementation and management. PREREQUISITE(S): CSC 453.",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-554- Advanced Database Management": {
+    "description": "In this class, we will discuss concepts, technologies, guiding principles, processes and best practices in managing database environment to meet high availability, scalability, and compliance needs. Organizations with business critical applications must reduce their risk of downtime, manage database environment efficiently and ensure data meets compliance requirements effectively. IT now has additional responsibilities to secure and manage information in alignment with legal, records management and regulations. This class explores methods and techniques to achieve the availability needs and also focuses on how to protect the database against disasters by maintaining multiple copies of the databases in separate locations, synchronized in real-time. Students learn to design and manage key business resumption functions including disaster recovery plans and business continuity plans. Data governance challenges will be discussed along with solutions including data life cycle management, preservation, retention, and disposition. Prerequisite(s): CSC 453 or CSC 454",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-555- Mining Big Data": {
+    "description": "Introduction to fundamentals of distributed file systems and map-reduce technology (e.g., Hadoop); tuning map-reduce performance in a distributed network. Algorithms and tools for mining massive data sets and discussion of current challenges. Applications in clustering, similarity search, classification, data warehousing (e.g., Hive), machine learning (e.g., Mahout). PREREQUISITE(S): ((CSC 401 and ( CSC 453 or CSC 455) and (IS 467 or CSC 478)) or (MAT 491 and MAT 449))",
+    "Typically_Offered": "Autumn-Spring Terms"
+  },
+  "CSC-557- Foundations of Computer Security": {
+    "description": "This course provides an overview of foundational techniques in the specification and verification of computer systems in the presence of malicious attackers. Topics may include: formal models of interaction, attacker models, robust safety properties such as confidentiality and authenticity, information flow properties such as noninterference, and tools such as model checkers, type checkers and theorem provers. Formerly 557. PREREQUISITE(S): CSC 439"
+  },
+  "CSC-559- Software Engineering for Financial Markets": {
+    "description": "This course focuses on software engineering issues in creating a financial engine that drives automation and execution in a financial market. The course will cover different types of financial engines from back-office to front-office, exchange matching engines, data gathering engines, trading engines and straight through processing. The emphasis will be on the engines themselves rather than the financial models beneath them. Students will be required to work individually and-or in teams and create a financial engine. This is a project course and it will put students in the role of a domain architect who will need the skills required to communicate with financial traders and software engineers at the same time. PREREQUISITE(S): CSC 404 and (CSC 431 or CSC 521 or CSC 425)",
+    "Typically_Offered": "Spring Term"
+  },
+  "CSC-575- Intelligent Information Retrieval": {
+    "description": "Examination of the design, implementation, and evaluation of information retrieval systems. The focus is on the underlying retrieval models, algorithms, and system implementations. Also examined is how an effective information search and retrieval is interrelated with the organization and description of information to be retrieved. Topics include: automatic indexing; thesaurus generation; Boolean, vector-space, and probabilistic models; clustering and classification; information filtering; distributed IR on the WWW; intelligent information agents; IR system evaluation; information visualization; and natural language processing in IR. Throughout the course, current literature from the viewpoints of both research and practical retrieval technologies both on and off the World Wide Web will be examined. PREREQUISITE(S): CSC 403"
+  },
+  "CSC-576- Computational Advertising": {
+    "description": "Computational advertising is the problem of finding the best advertisement for a given user in a given on-line context. It is a complex and emerging area at the intersection of quantitative marketing, web search, data mining, recommendation, optimization, and algorithmic game theory. Students will read current scientific papers and explore a range of models both mathematically and empirically. Students can choose from three types of final course projects: implementation projects, research papers, or data analysis projects. Prerequisite(s): IS 467 or CSC 478 or ECT 584",
+    "Typically_Offered": "Every Other Winter Term"
+  },
+  "CSC-577- Recommender Systems": {
+    "description": "Recommender systems offer personalized access to online information in product catalogs, social media networks, and document collections, among other applications. This class will introduce students to a range of approaches for building recommender systems including collaborative, content-based, knowledge-based, and hybrid methods. Students will implement recommendation algorithms using an open-sourced toolkit and conduct experimental evaluations. PREREQUISITE(S): SE 450 and (IS 467 or CSC 478 or ECT 584)"
+  },
+  "CSC-578- Neural Networks and Deep Learning": {
+    "description": "Course focuses on the algorithms, implement, and application of neural networks for learning about data. It will present how neural networks represent data and learn in supervised and unsupervised contexts with applications to language processing, classification, and regression problems. Topics include learning algorithms, and optimization methods, deep learning methods for deriving deep representations from surface features, recursive networks, Boltzmann machines and convolutional networks. PREREQUISITE(S): (CSC 412 and CSC 478) or (CSC 403 and IS 467)",
+    "Typically_Offered": "Autumn Term"
+  },
+  "CSC-580- Design of Object-Oriented Languages": {
+    "description": "This course covers issues in the design and specification of object-oriented programming languages. Sample topics include the use of patterns in program representation, static and dynamic semantics, subject reduction, sub-typing, inheritance, polymorphism, genericity and concurrency. Formerly SE 580. PREREQUISITE(S): SE 450"
+  },
+  "CSC-583- Artificial Intelligence II": {
+    "description": "The course provides an in-depth coverage of advanced topics in Artificial Intelligence, including planning, reasoning with uncertainty, decision theoretic agents, constraint satisfaction and optimization problems, as well as selected topics of interest in knowledge representation, machine learning, and natural language processing. These topics are discussed in the context of design and implementation of real-world intelligent agents. This course is suitable for advanced students with interest in further study in artificial intelligence and related topics, as well as those interested in the application of AI techniques in building systems with intelligent components. PREREQUISITE(S): CSC 480"
+  },
+  "CSC-587- Cognitive Science": {
+    "description": "A study of the relationships between our knowledge of human and computer intelligence. Levels of analysis of intelligent system, examples of cognitive models, and exposure to current publications, with an emphasis on those related to human computer interaction. Students will participate in the design and testing of models of human intelligence, both experimentally and using computer models. PREREQUISITE(S): CSC 403 or HCI 460.",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-588- Real-Time Multithreaded Architecture": {
+    "description": "Real-time constrained multithreaded architecture. Topics include multithreaded handle development, inter-thread communication, creating systems for user-defined callbacks, asynchronous loading and streaming of resources, non-blocking threading synchronization, design patterns and data driven messaging with time delivery constraints. Design and implementation of thread safe data management with atomic non-blocking synchronization. Exploration of real-time data driven messaging to allowing the run-time object data to control the behavior an application. Students will design, develop and implement a multithreaded real-time application (i.e. Audio engine) that integrates existing single and multithreaded middleware libraries. PREREQUISITE(S): CSC 461 and (SE 456 or SE 450)"
+  },
+  "CSC-589- Topics in Database": {
+    "description": "Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit. PREREQUISITE(S): For specific prerequisites, see syllabus or consult with course instructor. (variable credit)"
+  },
+  "CSC-590- Topics in User Interfaces": {
+    "description": "Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit. PREREQUISITE(S): For specific prerequisites, see syllabus or consult with course instructor. (variable credit)"
+  },
+  "CSC-591- Topics in Algorithms": {
+    "description": "Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit. PREREQUISITE(S): For specific prerequisites, see syllabus or consult course instructor. (variable credit)"
+  },
+  "CSC-592- Topics in Computer Vision and Pattern Recognition": {
+    "description": "This is an independent study course. May be repeated for credit. PREREQUISITE(S): CSC 482 or CSC 528"
+  },
+  "CSC-594- Topics in Artificial Intelligence": {
+    "description": "Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit. PREREQUISITE(S): For specific prerequisites, see syllabus or consult course instructor. (variable credit)",
+    "Typically_Offered": "Autumn-Spring Terms"
+  },
+  "CSC-595- Topics in Computer Science": {
+    "description": "Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit. PREREQUISITE(S): For specific prerequisites, see syllabus or consult course instructor. (variable credit)",
+    "Typically_Offered": "Winter Term"
+  },
+  "CSC-598- Topics in Data Analysis": {
+    "description": "Specific topics will be selected by the instructor and may vary with each quarter. Can be repeated for credit. Variable credit. PREREQUISITE(S): For specific prerequisites, see syllabus or consult course instructor. (variable credit)"
+  },
+  "CSC-599- Independent Study": {
+    "description": "Independent study supervised by an instructor. Independent study form required. Can be repeated for credit. Variable Credit. PREREQUISITE(S): None. (variable credit)"
+  },
+  "CSC-601- Master's Research Continuation": {
+    "description": "Non-credit. This course is intended for master's degree students who have completed all course registration requirements and who are regularly using the facilities of the University for study and research, thesis or project completion. These students are required to be registered in this course each quarter of the academic year until all requirements have been completed. PREREQUISITE(S): Completion of required courses. Independent Study form required. (0 credit hours)"
+  },
+  "CSC-672- Predictive Analytics Capstone": {
+    "description": "The capstone course provides an opportunity for students to integrate and apply the analytics skills and knowledge learned in the classroom to real world data. Students work in teams on a large scale analytics project. At the end of the course, students submit a report summarizing their analyses and study outcomes, and present results to the class. PREREQUISITE(S): Instructor consent required"
+  },
+  "CSC-690- Research Seminar": {
+    "description": "Readings and discussion on current research topics. PREREQUISITE(S): Consent of the instructor. (variable credit)"
+  },
+  "CSC-695- Master's Research": {
+    "description": "Students interested in a more in-depth study of a particular area will register for this course and work with a faculty member (not necessarily their academic advisor) on a research project. The work involved may include system development, empirical studies, or theoretical work. 4 credit hours of CSC 695 replaces one 500level elective course in student's degree program. This course can be taken for 1-4 credit hours for up 8 credit-hours. PREREQUISITE(S): Consent of research advisor. Independent study form required. Students must successfully complete the foundation courses prior to their first enrollment in CSC 695. (variable credit )"
+  },
+  "CSC-696- Master's Research": {
+    "description": "A student who has made a significant contribution to a research project, through work done in two quarters of CSC 695 (8 credit-hours), may choose to complete the Master's Research option. At the end of the two quarters, the student must submit a technical report detailing the results of the research project. This report must be approved by the student's research supervisor and the faculty advisor, at which point it will be made available to the public as a CDM Departmental Master's Research Technical Report. In that case, the student will be allowed to register for this course. The transcript will show the Research project title as the course topic. PREREQUISITE(S): CSC 695 taken twice and approval of report by student's research supervisor and faculty advisor. (0 credit hours)"
+  },
+  "CSC-697- Graduate Internship": {
+    "description": "In cooperation with local employers, the graduate program offers students the opportunity to integrate their academic experience with on-the-job training in computer related work areas. This course is variable credit and may be taken for one to four credits. This course may be repeated for a maximum of four credits total. Admission to the internship program requires consent of the Instructor and a Student Services Advisor. International students may complete curricular practical training (CPT) through this class provided they first obtain CPT authorization from the Office for International Students and Scholars (OISS) before beginning the internship. (1 quarter hour)",
+    "Typically_Offered": "As Needed"
+  },
+  "CSC-698- Master's Thesis": {
+    "description": "A student who has made an original contribution to the area (typically through 8 credit-hours' worth of work done in CSC 695, but not necessarily) may choose to complete a Master's Thesis. The student and the student's research advisor form a Master's Thesis Committee. The student submits to the committee a thesis detailing the original results of the research project. After a public defense, the committee will decide whether to accept the thesis. In that case, the student will be allowed to register for this course and the transcript will show the thesis title as the course topic. PREREQUISITE(S): Successful defense of a Master's Thesis. (variable credit)"
+  },
+  "CSC-699- Research": {
+    "description": "PREREQUISITE(S): Research course supervised by an instructor. Independent Study Form required. Variable credit. Can be repeated for credit. (variable credit)"
+  },
+  "CSC-701- Resident Candidacy Continuation": {
+    "description": "Non-credit. Students admitted to candidacy for the doctoral degree who have completed all course and dissertation registration requirements and who are regularly using the facilities of the University for study and research are required to be registered each quarter of the academic year until the dissertation and final examination have been completed. PREREQUISITE(S): Admission to Candidacy. Independent Study form required. (0 credit hours)"
+  },
+  "CSC-702- Non-Resident Candidacy Continuation (Prerequisite:Admission to Candidacy)": {
+    "description": "Non-credit. This registration provides for doctoral candidates who have been admitted to candidacy who are not in residence and need only occasional use of University facilities, including the libraries. PREREQUISITE(S): Admission to Candidacy. Independent Study form required. (0 credit hours)"
+    },
+  "IS-201- Introduction to Information Systems": {
+      "description": "This course demonstrates how information is used by organizations to conduct business and solve problems. This course presents information systems principles and demonstrates how they form an integral part of modern organizations. Topics include systems concepts; organizational processes; technological aspects of information systems; the Internet; IT security and ethical issues; database management; and systems development life cycle.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-208- Information Technology, Economy, and Society": {
+      "description": "Introduction to emerging information technologies and their impact on modern society. This course discusses the latest technologies used in the evolving IT environment and how these technologies are changing the modern world. Emphasis is placed on investigating issues using a variety of sources, case studies, and writing.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-215- Analysis and Design Techniques": {
+      "description": "This course presents a structured approach to analysis and design of an information system for a business. The systems development life cycle will be defined and described. Process descriptions, user and task analysis for interface development, prototyping, data flow and entity relationship diagramming will be presented. Case studies that promote critical-thinking skills provide the context for these techniques.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-280- Communication for the Global IT Professional": {
+      "description": "Development of professional communication and collaboration skills for the global IT workplace. Students cultivate proficiency with traditional in-person and electronic communications, modeling the conflict resolution, personal initiative, and personal presentation behaviors necessary for career advancement. Students become comfortable users of virtual communication and collaboration toolsets such as VoIP, collaborative editors, web presentation software, virtual team portals, and virtual scheduling tools.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-324- Enterprise Architecture": {
+      "description": "This course explores the characteristics, selection, implementation and management of enterprise architecture frameworks, focusing primarily on the evaluation and planning of information systems from a top-down perspective. Major topics include enterprise architecture, Web 2.0, Enterprise 2.0, social media and networking, software as a service, content management systems, cloud computing, and portals; each is studied in terms of its characteristics and potential applications within an organization.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-331- Fundamental of Digital Project Management": {
+      "description": "This course focuses on the creation and management of intangible technology products and services throughout the entire product management lifecycle. The benefits of the product management process along with the role of the Product Manager throughout the digital product lifecycle, main tasks, key reports and relationships, and the relationship between product management and product marketing will be examined.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-344- IT Auditing": {
+      "description": "Management and boards continue to recognize the importance of effectively managing information technology (IT) assets - to meet business objectives and to thoughtfully manage IT related business risks. This course examines the key principles related to auditing information technology processes and related controls and is designed to meet the ever increasing needs of IT audit and IT governance professionals. In addition, this course aids in the preparation for the Certified Information Systems Auditor (CISA) exam.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-356- Business Intelligence Systems": {
+      "description": "Survey of emerging technologies used for decision support, collaborative decision support, knowledge management, and virtual team support in modern organizations. The course will critically examine how organizations may leverage these technologies toward competitive advantage. Students will gain hands on experience with SaaS collaboration and decision making tools.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-360- Systems for Cloud Computing and Big Data": {
+      "description": "This course surveys the basic system characteristics of cloud-based business applications and large-scale, non-traditional data management technologies such as Hadoop and NoSQL. Key concepts, benefits and challenges, domains of managerial applications are discussed. Students understand firsthand the features of cloud and big data technologies through lab sessions. Students will work within a project team following the principles of project management to analyze the needs of a firm, to propose the functionality of a cloud-based data management application, and to present a detailed implementation plan for the system with its cost-benefit analysis.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-370- IT Applications in Business": {
+      "description": "An exploration of applications of Information Technology within business and non-profit organizations, with emphasis upon the following topics: ways managers, work groups, and organizations acquire and use information; typical business applications and their deployment in organizations; and information flows within common business systems. Additional topics include the role and structure of supply chains, IT support for Web-enabled enterprises, and global considerations for information system design. Coverage also includes standards for software acquisition, including evaluation of commercial software products. An introduction to the major principles of decision support and expert systems, business intelligence, and knowledge management, as well as risk, security, and disaster recovery within an organizational setting are also covered.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-371- Introduction to IT System Management": {
+      "description": "This course focuses on implementation and post-implementation support for information systems. Topics include testing, deployment, user training, help desk, software upgrades, and staffing for support teams. Case studies and team projects.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-372- Software Project Management": {
+      "description": "An introduction to the concept and techniques of project management for a broad range of systems, including Web-based application development. Topics include resource management, organizational factors, project manager responsibilities, team building, and risk management. Tools and techniques for project estimating and scheduling will be presented. Case study and group projects.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-373- Introduction to Enterprise Systems": {
+      "description": "A course on technical and management aspects of enterprise systems. It incorporates hands-on experience on enterprise resource planning (ERP) systems. Topics include: characteristics and selection of ERP systems, ERP implementation, customer relationship management (CRM), supply chain management (SCM), ERP systems administration, cloud computing and ERP, and enterprise integration with EPR.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-375- Object-Oriented Analysis and Design": {
+      "description": "This course focuses on object-oriented modeling techniques for analysis and design. Emphasis will be on the creation of well-designed, robust and maintainable software systems. UML (Unified Modeling Language) will be examined for modeling the system.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-376- Information Systems Project": {
+      "description": "This senior project course requires students to apply prior learning in project management and systems development lifecycle by developing a complete system from business case, analysis, and design, through implementation strategies. Team project, documentation, presentation, the use of development as well as project management tools will be emphasized.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-379- Virtual Software Teams": {
+      "description": "Fundamentals of software development in a virtual environment (if possible with students from different countries). Using an open source development environment; working across time, language, and culture; effective use of collaborative tools.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-380- Essential of Technology Entrepreneurship": {
+      "description": "Introduction to the entrepreneurial process within technology intensive ventures. Roles of entrepreneurs and their start-up teams. Suitable business models and strategies. Legal issues and intellectual property. Financial issues and venture resources. Role of the customer and entrepreneurial marketing. Course will include group case studies of technology entrepreneurial ventures. Students will work in teams to develop a marketing plan and a business plan for a technology-intensive entrepreneurial venture of their choice. Course requires a prior foundational understanding of IT as is typically developed by the start of junior year.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-382- Introduction to Legal Issues in Information Technology": {
+      "description": "Introduction to the legal standards to which people and organizations are held under laws and regulations that concern computing and information technology. Topics include government and laws, business regulations, healthcare regulations, education regulations, data breach reporting and notification, privacy laws, laws of search and seizure, freedom of speech and association, defamation, cyber crimes, contracts, and intellectual property.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-396- Topics in Information Systems": {
+      "description": "Specific topics will be selected by the instructor and will vary with each quarter.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-398- Introduction to IS Management Seminar": {
+      "description": "This one-credit seminar examines the concepts of information and technology management and career options in this field. Students will assess their own interests and skill requirements for various careers. They will also analyze the impacts of IS trends and emerging technologies on their career choices. All new IS master's students are required to take this seminar as the first course.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-399- Independent Study": {
+      "description": "Independent study supervised by an instructor. Independent study form required. Can be repeated for credit.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-400- Introduction to IS Management Seminar": {
+      "description": "This one-credit seminar examines the concepts of information and technology management and career options in this field. Students will assess their own interests and skill requirements for various careers. They will also analyze the impacts of IS trends and emerging technologies on their career choices. All new IS master's students are required to take this seminar as the first course.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-421- System Analysis": {
+      "description": "Course focus is on both traditional and object oriented systems analysis, with an emphasis upon developing competency in a wide range of modeling techniques. Specific topics include: overview of the software development environment and project management; project selection, initiation, and planning; determining requirements; process modeling, including DFDs and use cases; logic modeling, including decision tables, sequence diagrams, and activity diagrams; introduction to Entity-Relationship Diagrams.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-422- System Design, Implementation, and Maintenance": {
+      "description": "Course focus is on both traditional and object oriented systems design. Specific topics include: database design, including logical and physical design; Entity-Relationship diagrams, class diagrams, form and report design; interface and dialogue design; design specifications, including structure charts and prototypes; designing for LANs and distributed systems, as well as the Internet; system implementation, including parallel and phased implementation, testing, documentation, and user training; system maintenance, including types of maintenance, controlling and coordinating maintenance requests, and configuration management.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-430- Fundamentals of IT Project Management": {
+      "description": "This course concentrates on monitoring, managing and controlling assets and resources on a single IT project. Topics covered are risk management; procurement and contract management; time and cost estimating; controlling and tracking techniques; quality assurance; testing and audit. Students will use common project management software for resource allocation and balancing.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-431- Digital Product Management": {
+      "description": "This course focuses on the central role of the Product Manager in creating and sustaining compelling products and services throughout the product lifecycle. Special emphasis is placed on the creation and management of intangible technology products and services throughout the entire product management lifecycle. Product managers act as the focal point for value creation within their organizations leading cross functional product activities from the conception of an idea to the ultimate product retirement.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-433- Information Security Management": {
+      "description": "Managing information assets and the security function. Emphasis on managing security-related risk, as well as the process of developing, implementing, and maintaining organizational policies, standards, procedures, and guidelines as they relate to security. Role of the CISO. Identifying and evaluating information assets, threats, and vulnerabilities. Quantitative and qualitative risk analysis, risk mitigation, residual risk, and risk resolution, as they relate to information security. Incident response. Consideration of the role and implementation of security controls during the process of analysis, design, and development. The application of policy development principles to security risk management. Introduction to compliance, as well as the CISSP domains.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-435- Organization Modeling": {
+      "description": "The course explores contemporary approaches to analyzing and modeling organizational problems, processes, workflow, users and data. The emphasis is on the initial stages of analysis where the root cause of problems are identified, formulated and modeled. Students will acquire an array of modeling skills and be able to prescribe the proper modeling approach based on a variety of organizational and contextual factors. Business process modeling, management and metrics will be covered. Object-oriented and user-centered approaches will be introduced.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-440- Collaborative Technologies for Leading Projects": {
+      "description": "Study of the process of virtual teaming with emphasis on facilitation of different time project activities and facilitation of same time meetings. Students will learn how small group psychology and group communication theories inform specific behaviors in the design and leadership of meetings. Several meeting types including information briefing, focus group, document writing, decision making, requirements gathering, and teaching/training will be explored. In addition, the course surveys current collaboration technologies and discusses how to select among those technologies usability and fit to purpose of a meeting agenda.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-444- IT Auditing": {
+      "description": "Management and boards continue to recognize the importance of effectively managing information technology (IT) assets - to meet business objectives and to thoughtfully manage IT related business risks. This course examines the key principles related to auditing information technology processes and related controls and is designed to meet the ever increasing needs of IT audit and IT governance professionals. In addition, this course aids in the preparation for the Certified Information Systems Auditor (CISA) exam.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-452- Big Data and the Internet of Things": {
+      "description": "This course surveys system design concepts, techniques, and algorithms in Machine to Machine (M2M), Internet of Things (IoT), and Internet of Everything (IoE). Topics covered include system architecture for big data, sensors and embedded technologies, IoT architecture, consumer vs. industrial IoT, wearable and mobile systems, tracking systems, IoT and big data analytics, market dynamics and entrepreneurial opportunities. Special emphasis is placed on identifying best practices in using big data and IoT through case studies and hands-on exercises.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-455- Electronic Business": {
+      "description": "An introduction to electronic business. The topics include business models, technologies, business and social impact of e-business. It explores the tools, skills, business and social implications of emerging electronic business. In addition to acquiring basic skills for identifying electronic business opportunities and creating a presence in the online marketplace, the student reexamines fundamental processes of business as they are performed in cyberspace in contrast to the marketplace. This helps them understand changes as the cyberspace grows increasingly important in the global economy.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-456- Systems Thinking Perspective for Understanding Business Dynamics": {
+      "description": "This course introduces students to systems thinking and system dynamics modeling for the analysis of business strategy and decision making. Students will learn how to use systems thinking and modeling to visualize and analyze organizations and institutions in terms of the structures and policies that create dynamics and regulate performance. The course will draw on system dynamics modeling and simulation concepts and tools as well as real-world case studies to explain the management of business dynamics.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-467- Fundamentals of Data Science": {
+      "description": "An introduction to the Knowledge Discovery Technologies covering all stages of a data mining process: domain understanding, data collection and selection, data cleaning and transformation, dimensionality reduction, pattern discovery, evaluation, and knowledge extraction. The course provides a comprehensive overview of data mining techniques used to realize these stages, including traditional statistical analysis and machine learning techniques. Students will analyze large datasets and develop modeling solutions to support decision making in various domains such as healthcare, finance, security, marketing, customer relationship management (CRM), and multimedia.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-482- Legal Responsibilities in Information Technology": {
+      "description": "This course examines the legal standards to which people and organizations are held under laws and regulations that concern computing and information technology. Topics include government and laws, business regulations, healthcare regulations, education regulations, data breach reporting and notification, privacy laws, laws of search and seizure, freedom of speech and association, defamation, cyber crimes, contracts, and intellectual property.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-483- Information Services and Operations": {
+      "description": "This course focuses on the operational aspects of information systems in organizations by examining the concepts, tools and techniques available to IS professionals responsible for the delivery of IT services. Topics include the organization of the IT services; the procurement of hardware, software and vendor services; operation of data centers, help desks and user training, the development and use of RFPs (Request for Proposals) and SLAs (Service Level Agreements), the integration of services and operations with application development project needs, and the role of capital and operating budgets.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-485- Requirements Elicitation, Analysis, and Specification": {
+      "description": "This course focuses on the concepts and skills needed to elicit, analyze, specify, and manage requirements for a software or systems level project. Students will learn to identify and work with stakeholders through conducting a variety of requirements gathering techniques including interviewing, surveying, ethnography, and Joint Application Design (JAD) sessions, to identify and analyze requirements conflicts and negotiate solutions, to model requirements and specify them in unambiguous ways, and to manage requirements throughout the software lifecycle using change controls, traceability, and impact analysis techniques. The requirements process will be examined in both traditional and agile environments. Current topics such as requirements for product lines or distributed development teams will also be explored as time permits.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-500- Information Technology Leadership": {
+      "description": "Managing people ethically and effectively by applying a broad range of creative approaches to individual and team leadership within an Information Technology context. Leadership methods studied include trait-based, skills-based, situational, contingency theory, path-goal theory, leader-member exchange theory, transformational, psychodynamic, and authentic leadership, as well as team leadership and the international, cultural, and ethical dimensions of leadership. Students assess their leadership styles and design individualized development plans to strengthen existing skills and expand IT leadership capabilities by incorporating additional leadership dimensions.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-505- Business Continuity/Disaster Recovery Theories and Strategies": {
+      "description": "This course focuses on the knowledge necessary for an organization to prepare for a variety of major disruptions (floods, earthquakes, terrorist attacks, etc.). The goal is survival of the organization and its daily workflow despite major disruption. Students learn to analyze and prioritize risks and determine criticality ratings that are used to determine survival strategies. Students also learn how to organize employees to respond to a major disruption and how to document recovery plans. Course content includes coverage of current industry trends, as well as planning for the survival of Information Technology functions within an organization.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-506- Business Continuity/Disaster Recover Management and Tactics": {
+      "description": "The course prepares students to lead an organization's business continuity and disaster recovery plans. Students learn the methodology needed to organize this function within an organization, evaluate an organization's business continuity and disaster recovery program according to established industry standards, and conduct a variety of quick-recovery drills. Students also focus upon industry-related human resources issues, crisis communications, and policies and procedures for setting up a command center. Course content includes coverage of current industry trends, as well as managing the survival of Information Technology functions within an organization.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-511- Social Issues of Computing": {
+      "description": "This course aims to provide a broad survey of the individual, organizational, and cultural impacts of computers and to stimulate reflection upon the social and ethical issues provoked by current and projected uses of computers. Some topics include an in-depth look at computers as they relate to workplaces, communities, public policy, legal issues, education, privacy, and moral values.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-535- Information Technology Investment Financial Analysis": {
+      "description": "This course focuses on the application of financial analysis and decision-making approaches to aid information technology investment decisions at the operational, project, tactical and strategic levels. Students will learn how to apply a variety of financial methods -- breakeven analysis, present value analysis, profitability index, and return on investment to various IT investment decisions. The course will also address cost benefit analysis, outsourcing, balanced scorecard, and multi-factor scoring, benchmarking, and IT investment portfolio methods. These techniques will prepare students to manage capital budgets, acquisition of system and application software, hardware, personnel, and professional services at project and system levels as well as enterprise investment portfolio.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-536- Enterprise Cloud Computing": {
+      "description": "Cloud concepts, architecture, and service management, with particular emphasis upon identifying and analyzing potential business applications of cloud computing. Students will conduct feasibility studies, detailing the advantages and disadvantages of implementing a cloud computing platform for specific applications, with particular emphasis upon financial considerations, business benefits, and security risks. Students will develop the ability to evaluate alternatives and effectively argue in favor of their choices within the cloud computing knowledge domain.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-540- Global Information Technology": {
+      "description": "A study of the hardware, software, and techniques for using virtual information technologies to support teams working in a distributed, virtual, or global environments. Topics include software survey and evaluation, software deployment within organizational and trans-organizational contexts, trans-national vendor relationships, trans-border data flow, geographically dispersed software development, and integration of diverse technologies.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-549- Data Warehousing": {
+      "description": "Introduction to data warehousing and the foundations of understanding the issues involved in building a successful data warehouse. Data warehouse development methodology and issues surrounding the planning of the data warehouse. Data quality and metadata in the data warehouse. Analysis, transformation and loading of data into a data warehouse. Development of the data architecture and physical design. Implementation and administration of the data warehouse.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-550- Enterprise Data Management": {
+      "description": "This course focuses on the technical concepts and managerial knowledge needed to define, integrate and govern centralized and distributed data for a wide range of application systems used at large, multinational corporations. Topics include data repository, data life cycle, DAMA-DMBOK, data stewardship, data asset valuation, enterprise data architecture, data modeling with meta-data, data security standards, master data, and data quality management.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-556- Enterprise Project Management": {
+      "description": "This course covers how an enterprise coordinates and effectively manages all its IT projects and programs through program management and the IT program management office. Students will learn the role of the IT program management office in establishing and maintaining the project and program infrastructure and in assisting project managers, program managers, and the executive steering committee. Students will analyze the role of program management in coordinating the delivery of expected program benefits, in managing stakeholder expectations, and in establishing program governance.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-560- Enterprise Systems": {
+      "description": "An introduction to enterprise systems for data and process integration, including ERP systems. Topics include the requirements of enterprise systems, application architecture, tools, and functionality of leading enterprise systems, life cycle and methodologies for systems integration, selection, and implementation strategies. Also addressed are emerging trends for enterprise systems and relationship among component systems.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-565- IT Outsourcing": {
+      "description": "The course focuses on how organizations can use leverage of scale as a source for cost reduction; leverage of expertise for improved superior IT performance; leverage of access (e.g. location) to develop new strategies. Other topics covered include different types of sourcing strategies, sourcing maturity levels and best practices.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-570- Enterprise System Implementation": {
+      "description": "Formerly IS 450. This course is targeted towards information systems professionals who are involved in the planning and implementation of large scale, cross-functional enterprise systems. Students will examine the characteristics of technology efforts that change and transform the way people perform their tasks and how the new technology structures the flows of information and decision making using workflow modeling methods. Through case studies and exercises students gain insights into the elements of successful implementations leading to the preparation of a change management plan. Emphasis is placed on developing mechanisms for communicating and training all affected agents.",
+      "Typically_Offered": "Autumn/Winter/Spring"
+    },
+    "IS-574- Business Intelligence": {
+      "description": "Introduction to the concepts of business intelligence (BI) as components and functionality of information systems. How business problems can be solved effectively by using operational data to create data warehouses, and then applying data mining tools and analytics to gain new insights into organizational operations. Detailed discussion of the analysis, design and implementation of systems for BI, including: data management systems, decision support systems, group support systems, knowledge engineering, expert systems, and Web 2.0 tools. Case studies of application software, web tools, success and limitation as well as technical and social issues.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-577- Information Systems Policy and Strategies": {
+      "description": "This capstone course emphasizes the planning and management of information technologies and related resources at the corporate level. Topics covered include assessment of information technologies, tracking emerging technologies and trends, managing portfolio resources and matching them to business needs, technology transfer, end-user computing, outsourcing, theoretical models, strategic applications and strategic IT planning. Students are encouraged to take this course toward the end of their study.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-578- Information Technology Consulting": {
+      "description": "This course is for the IT professional. The emphasis is on examining the models, techniques, and skill development for providing effective IT consulting services. The course examines the structure of IT consulting markets; leading IT consulting practices; models and approaches for providing internal IT consulting services; sourcing strategies, evaluation of RFPs and response process contract formulation, client relations and project management; knowledge management and collaboration and IT strategies.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-579- Virtual Software Teams Management": {
+      "description": "Application of project management principles, tools, and techniques to a virtual software development project; management of virtual software teams; planning, executing the plan, monitoring and controlling the development process. Work with project office (PMO) to set templates for reporting and common processes and standards; set milestones and their deliverables; establish communication",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-580- Technology Entrepreneurship": {
+      "description": "In-depth examination of the entrepreneurial process within technology intensive ventures. Roles of entrepreneurs and their start-up teams. Suitable business models and strategies. Legal issues and intellectual property. Financial issues and venture resources. Role of the customer and entrepreneurial marketing. Students will analyze and present case studies of technology entrepreneurial ventures. Students will develop a marketing plan and a business plan for a technology-intensive entrepreneurial venture of their choice.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-590- Information Systems Research Methods": {
+      "description": "Introduction of information systems (IS) research methods and theories. The course is taught as a seminar course. Both quantitative and qualitative methods are discussed.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-596- Topics in Information Systems": {
+      "description": "Specific topics will be selected by the instructor and will vary with each quarter.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-599- Independent Study": {
+      "description": "Independent study supervised by an instructor. Independent study form required. Can be repeated for credit.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-690- Research Seminar": {
+      "description": "Readings and discussion on current research topics. Students may register for this course no more than twice.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-696- Master’s Project": {
+      "description": "Four credit hours. Students may register for this course only after their advisor has approved a written proposal for their project. Independent study form required.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    },
+    "IS-698- Master’s Thesis": {
+      "description": "Two credit hours. Students may register for this course only after their advisor has approved a written proposal for their thesis. Students must continue to register for this course every quarter after their first registration in it until they complete their project or thesis to the satisfaction of their advisor. They earn two hours of credit for each such registration but only four hours of credit will apply for degree credit. Independent study form required.",
+      "Typically_Offered": "Autumn/Winter/Spring/Summer"
+    }
+  }
+}
+

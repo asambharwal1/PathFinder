@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aashishssg.pathfinder">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pathfinder_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pathfinder_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PathFinder"
+            android:label="@string/title_activity_main"
+            android:parentActivityName=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aashishssg.pathfinder.Login" />
+        </activity>
+        <activity
+            android:name=".Registration"
+            android:label="@string/title_activity_registration"
+            android:parentActivityName=".Login">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aashishssg.pathfinder.Login" />
+        </activity>
+        <activity
+            android:name=".RegistrationEducation"
+            android:label="@string/title_activity_registration_education"
+            android:parentActivityName=".Registration">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aashishssg.pathfinder.Registration" />
+        </activity>
+        <activity
+            android:name=".Skills"
+            android:label="@string/title_activity_skills"
+            android:parentActivityName=".RegistrationEducation">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aashishssg.pathfinder.RegistrationEducation" />
+        </activity>
+        <activity
+            android:name=".CourseDescription"
+            android:label="@string/title_activity_course_description"
+            android:parentActivityName=".PathFinder"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aashishssg.pathfinder.PathFinder" />
+        </activity>
+        <activity
+            android:name=".mCoursesRequired"
+            android:label="@string/title_activity_m_courses_required"
+            android:parentActivityName=".PathFinder"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aashishssg.pathfinder.PathFinder" />
+        </activity>
+        <activity
+            android:name=".FacultyLogin"
+            android:label="@string/title_activity_faculty_login"
+            android:parentActivityName=".Login"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.aashishssg.pathfinder.Login" />
+        </activity>
+    </application>
+
+</manifest>

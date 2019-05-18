@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/percentageHeader"
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.99"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@android:color/black" />
+
+    <com.github.lzyzsd.circleprogress.CircleProgress
+        android:id="@+id/percentageMatch"
+        custom:circle_progress="30"
+        custom:circle_unfinished_color="#A8A8A8"
+        custom:circle_text_size="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>

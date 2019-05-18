@@ -1,0 +1,20 @@
+{
+  "MS Computer Science": {
+    "description": "Exposes students to the complete life-cycle of computer application development including abstraction, modeling and algorithm development, leveraging computer systems, programming languages and development frameworks, and software development techniques and processes. It prepares students for a professional career in Software Development or Computer Science Research."
+  },
+  "MS Information Systems-Standard": {
+    "description": "If your career interest is information systems in general, the standard concentration is recommended so that you can customize your MS-IS based on your academic background and work experience. To pursue the standard concentration, we suggest that you work with your faculty advisor to manage your academic plan of study."
+  },
+  "MS Information Systems-Business Analysis/Systems Analysis": {
+    "description": "This concentration focuses on designing systems by understanding user/organizational needs and modeling appropriate systems functions for these needs. Graduates of this concentration typically pursue the career of business analyst or system analyst. The responsibilities of these analysts include thorough understanding of end-user/organizational requirements and designing the right functions of IS to maximize operational efficiency and effectiveness."
+  },
+  "MS Information Systems-Business Intelligence": {
+    "description": "This concentration emphasizes designing the process of generating valuable business information thorough systems integration, application software management, and information modeling. The recent popularity of big data, predictive analytics and the IoT (Internet of Things) has increased the job market demand for MS-IS graduates with this concentration."
+  },
+  "MS Information Systems-Database Administration": {
+    "description": "The management of databases is ever more critical for business success. This concentration gives students the knowledge and skills for designing databases and then for extracting needed business data from these databases. Students also learn the process of designing and managing database systems with cutting-edge technologies. The job market demand for database administrators remains quite favorable."
+  },
+  "MS Information Systems-IT Enterprise Management": {
+    "description": "Large-scale organizations typically depend on a wide range of different information systems. These organizations cannot do without the continuous life cycle of developing, maintaining and replacing a variety of IS. Key interests of this concentration include running IT operations, leading new system developments through projects and programs, managing organizational change through IT innovations, and integrating systems across organizational units. The job market for these graduate remains strong."
+  }
+}
