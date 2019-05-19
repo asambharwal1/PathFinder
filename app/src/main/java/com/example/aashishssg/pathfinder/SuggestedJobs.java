@@ -86,10 +86,9 @@ public class SuggestedJobs extends Fragment implements Updatable{
         int ipAddress = wi.getIpAddress();
         ip = String.format("%d.%d.%d.%d", (ipAddress & 0xff),(ipAddress >> 8 & 0xff),(ipAddress >> 16 & 0xff),(ipAddress >> 24 & 0xff));
         JSONTask jsonTask = new JSONTask();
-        jsonTask.execute("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("-", "").replace("\\s+", "%20"));
+        jsonTask.execute("http://api.glassdoor.com/api/api.htm?t.p=%T_P%&t.k=%T_K%&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("-", "").replace("\\s+", "%20"));
         JSONTask jsonTaskCurr = new JSONTask();
-        jsonTaskCurr.execute("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+currentJob.replace("-", "").replace("\\s+", "%20"));
-        //System.out.println("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+currentJob.replace("\\s+", "%20"));
+        jsonTaskCurr.execute("http://api.glassdoor.com/api/api.htm?t.p=%T_P%&t.k=%T_K%&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+currentJob.replace("-", "").replace("\\s+", "%20"));
         try {
             jsonTask.get();
             jsonTaskCurr.get();
@@ -120,8 +119,7 @@ public class SuggestedJobs extends Fragment implements Updatable{
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 topJobBarAdd = jobList.get(i).split("\n")[0];
                 JSONTask jsonTask = new JSONTask();
-                jsonTask.execute("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("-", "").replace("\\s+", "%20"));
-                System.out.println("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("-", "").replace("\\s+", "%20"));
+                jsonTask.execute("http://api.glassdoor.com/api/api.htm?t.p=%T_P%&t.k=%T_K%&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("-", "").replace("\\s+", "%20"));
                 try {
                     jsonTask.get();
                 } catch (InterruptedException e) {
@@ -180,11 +178,9 @@ public class SuggestedJobs extends Fragment implements Updatable{
         int ipAddress = wi.getIpAddress();
         ip = String.format("%d.%d.%d.%d", (ipAddress & 0xff),(ipAddress >> 8 & 0xff),(ipAddress >> 16 & 0xff),(ipAddress >> 24 & 0xff));
         JSONTask jsonTask = new JSONTask();
-        jsonTask.execute("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("-", "").replace("\\s+", "%20"));
-        //System.out.println("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("\\s+", "%20"));
+        jsonTask.execute("http://api.glassdoor.com/api/api.htm?t.p=%T_P%&t.k=%T_K%&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+topJobBarAdd.replace("-", "").replace("\\s+", "%20"));
         JSONTask jsonTaskCurr = new JSONTask();
-        jsonTaskCurr.execute("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+currentJob.replace("-", "").replace("\\s+", "%20"));
-        //System.out.println("http://api.glassdoor.com/api/api.htm?t.p=220764&t.k=epYq3jCVMME&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+currentJob.replace("\\s+", "%20"));
+        jsonTaskCurr.execute("http://api.glassdoor.com/api/api.htm?t.p=%T_P%&t.k=%T_K%&userip="+ip+"&useragent=&format=json&v=1&action=jobs-prog&countryId=1&jobTitle="+currentJob.replace("-", "").replace("\\s+", "%20"));
         try {
             jsonTask.get();
             jsonTaskCurr.get();

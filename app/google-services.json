@@ -29,7 +29,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB1zcWSow8eNLtpTMidXcfuEPAauLuqMj0"
+          "current_key": "%API_KEY%"
         }
       ],
       "services": {
